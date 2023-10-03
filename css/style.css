@@ -11,7 +11,9 @@ html {
     background-color: #d7d8e4;
     border-radius: 10px;
   }
-
+body{
+    overflow-y: hidden;
+}
 section {
     margin: 20px 0;
 }
@@ -34,11 +36,10 @@ section {
 }
 
 .content {
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 .info {
-    /* height: 52px; */
     border-radius: 13px;
     background-color: #203b50;
     font-size: 16px;
@@ -70,7 +71,7 @@ section {
         text-align: center;
     }
 .headline {
-    font-size: 40px;
+    font-size: 30px;
     letter-spacing: 1px;
     color: #f11a1a;
     font-weight: bold;
@@ -89,27 +90,36 @@ section {
 
 .desc-text {
    padding: 20px;
-    font-size: 22px;
+    font-size: 18px;
     color: #707070;
     font-weight: bold;
     font-family: "adwa";
     text-align: right;
+    line-height: 1.8;
+}
+@media (max-width:600px) {
+    .desc-text{
+        font-size: 13px;
+    }
+}
+@media (max-width:330px) {
+  
+    .end h3{
+        font-size: 18px;
+    }
 }
 @media (max-width:380px) {
-    .desc-text{
-        font-size: 20px;
-    }
+ 
     .headline{
-        font-size: 33px;
+        font-size: 25px;
     }
    .info{font-size: 14px;}
 }
 .end{
-    margin: 35px 0;
+    margin: 0 0 35px 0;
 
 }
 .end h3{
-height: 37px;
 font-size: 22px;
 color: #707070;
 font-weight: bold;
