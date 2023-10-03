@@ -139,8 +139,7 @@ text-align: center;
   
 }
 @media (max-width:340px) {
-  
-    
+   
     body{
         overflow-y: scroll;
     }
