@@ -136,4 +136,7 @@ text-align: center;
     .end-img img{
         width: 90px;
     }
+    body{
+        overflow-y: scroll;
+    }
 }
