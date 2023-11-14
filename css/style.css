@@ -12,8 +12,13 @@ html::-webkit-scrollbar {
     background-color: #d7d8e4;
     border-radius: 10px;
   } */
+  @font-face {
+    font-family: 'Janna_IT_Regular';
+    src: url('../webfonts/alfont_com_خط-جنات-عادي.ttf') format('truetype');
+  }
 body {
     overflow-y: hidden;
+    font-family: 'Janna_IT_Regular', sans-serif;
 }
 
 section {
@@ -25,7 +30,7 @@ section {
     letter-spacing: 0px;
     color: #171616;
     font-weight: bold;
-    font-family: "Sakkal Majalla";
+    /* font-family: "Sakkal Majalla"; */
     text-align: right;
     filter: drop-shadow(4.243px 4.243px 2.5px rgba(0, 0, 0, 0.16));
 }
@@ -42,11 +47,11 @@ section {
 .info {
     border-radius: 13px;
     background-color: #203b50;
-    font-size: 16px;
+    font-size: 15px;
     letter-spacing: 0px;
     color: #fbfbfb;
     font-weight: bold;
-    font-family: "Sakkal Majalla";
+    /* font-family: "Sakkal Majalla"; */
 
     display: flex;
     justify-content: center;
@@ -79,7 +84,7 @@ section {
     letter-spacing: 1px;
     color: #f11a1a;
     font-weight: bold;
-    font-family: "Sakkal Majalla";
+    /* font-family: "Sakkal Majalla"; */
     text-align: center;
 }
 
@@ -97,7 +102,7 @@ section {
     font-size: 18px;
     color: #707070;
     font-weight: bold;
-    font-family: "adwa";
+    /* font-family: "adwa"; */
     text-align: right;
     line-height: 1.8;
 }
@@ -112,10 +117,11 @@ section {
     margin: 0 0 35px 0;
 }
 .end h3 {
-    font-size: 22px;
+    /* font-size: 22px; */
     color: #707070;
+    font-size: 20px;
     font-weight: bold;
-    font-family: "adwa";
+    /* font-family: "adwa"; */
     text-align: center;
 }
 
@@ -128,13 +134,15 @@ section {
     width: 105px;
 }
 @media (max-width:380px) {
-
+    .desc-text {
+        font-size: 14px;
+    }
     .headline {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .info {
-        font-size: 14px;
+        font-size: 12px;
     }
     .end h3 {
         font-size: 16px;
